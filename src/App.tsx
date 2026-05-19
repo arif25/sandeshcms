@@ -1,21 +1,11 @@
-import { SidebarProvider, SidebarTrigger, SidebarInset } from "@/components/ui/sidebar"
+import { SidebarProvider } from "@/components/ui/sidebar"
 import AppSidebar from "@/components/AppSidebar"
-import Firstpage from "./pages/firstpage"
-import Secondpage from "@/pages/secondpage"
 
-export function App({ children }: { children: React.ReactNode }) {
+export default function App() {
   return (
-    <div>Dashboard</div>
-    //  <SidebarProvider>
-    //   <AppSidebar />
-    // </SidebarProvider>
-    //  <SidebarProvider className="w-full">
-    //   <AppSidebar />
-    //   <main className="w-full">        
-    //     <Firstpage />
-    //   </main>
-    // </SidebarProvider>
-
+     <SidebarProvider>
+      <AppSidebar />
+    </SidebarProvider>
   )
 }
 
