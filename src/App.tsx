@@ -5,9 +5,10 @@ import Secondpage from "@/pages/secondpage"
 
 export function App({ children }: { children: React.ReactNode }) {
   return (
-     <SidebarProvider>
-      <AppSidebar />
-    </SidebarProvider>
+    <div>Dashboard</div>
+    //  <SidebarProvider>
+    //   <AppSidebar />
+    // </SidebarProvider>
     //  <SidebarProvider className="w-full">
     //   <AppSidebar />
     //   <main className="w-full">        
