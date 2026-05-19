@@ -6,6 +6,7 @@ import Secondpage from "@/pages/secondpage"
 export function App({ children }: { children: React.ReactNode }) {
   return (
     <div>
+      <div>Test</div>
       <AppSidebar />
     </div>
     //  <SidebarProvider className="w-full">
